@@ -7,6 +7,13 @@ export type SpawnLocation = Record<
 >;
 
 export const SPAWNS: SpawnLocation = {
+  kolhouse: {
+    default: {
+      x: 100,
+      y: 100,
+    },
+  },
+
   crop_boom: {
     default: {
       x: 220,
